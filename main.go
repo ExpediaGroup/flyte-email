@@ -17,12 +17,12 @@ limitations under the License.
 package main
 
 import (
-	"net/url"
-	"github.com/HotelsDotCom/go-logger"
 	"github.com/HotelsDotCom/flyte-client/client"
 	"github.com/HotelsDotCom/flyte-client/flyte"
 	"github.com/HotelsDotCom/flyte-email/command"
 	"github.com/HotelsDotCom/flyte-email/email"
+	"github.com/HotelsDotCom/go-logger"
+	"net/url"
 	"time"
 )
 
