@@ -1,3 +1,7 @@
+# flyte-email
+
+![Build Status](https://travis-ci.org/HotelsDotCom/flyte-email.svg?branch=master)
+
 ## Overview
 The Email pack provides the ability to send emails.
 
