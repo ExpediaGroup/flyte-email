@@ -1,6 +1,8 @@
 # flyte-email
 
 ![Build Status](https://travis-ci.org/HotelsDotCom/flyte-email.svg?branch=master)
+[![Docker Stars](https://img.shields.io/docker/stars/hotelsdotcom/flyte-email.svg)](https://hub.docker.com/r/hotelsdotcom/flyte-email)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotelsdotcom/flyte-email.svg)](https://hub.docker.com/r/hotelsdotcom/flyte-email)
 
 ## Overview
 The Email pack provides the ability to send emails.
