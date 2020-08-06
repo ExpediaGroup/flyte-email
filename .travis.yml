@@ -4,7 +4,7 @@ language: generic
 
 env:
   global:
-    - IMAGE=hotelsdotcom/flyte-email
+    - IMAGE=expediagroup/flyte-email
     - MAJOR_VERSION=1
 
 services:

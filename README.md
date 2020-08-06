@@ -1,8 +1,8 @@
 # flyte-email
 
-![Build Status](https://travis-ci.org/HotelsDotCom/flyte-email.svg?branch=master)
-[![Docker Stars](https://img.shields.io/docker/stars/hotelsdotcom/flyte-email.svg)](https://hub.docker.com/r/hotelsdotcom/flyte-email)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotelsdotcom/flyte-email.svg)](https://hub.docker.com/r/hotelsdotcom/flyte-email)
+![Build Status](https://travis-ci.org/ExpediaGroup/flyte-email.svg?branch=master)
+[![Docker Stars](https://img.shields.io/docker/stars/expediagroup/flyte-email.svg)](https://hub.docker.com/r/expediagroup/flyte-email)
+[![Docker Pulls](https://img.shields.io/docker/pulls/expediagroup/flyte-email.svg)](https://hub.docker.com/r/expediagroup/flyte-email)
 
 ## Overview
 The Email pack provides the ability to send emails.
@@ -11,8 +11,7 @@ The Email pack provides the ability to send emails.
 ### Command Line
 To build and run from the command line:
 * Clone this repo
-* Run `dep ensure` (must have [dep](https://github.com/golang/dep) installed )
-* Run `go build`
+* Run `make build`
 * Run `FLYTE_API_URL=<URL> SMTPSERVER=<SERVER> ./flyte-email`
 * Fill in this command with the relevant API url and smtp server value.
 
@@ -21,7 +20,7 @@ To build and run from the command line:
 
 ### Docker
 To build and run from docker
-* Run `docker build -t flyte-email .`
+* Run `make docker-build`
 * Run `docker run -e FLYTE_API_URL=<URL> -e SMTPSERVER=<SERVER> flyte-email`
 * All of these environment variables need to be set
 

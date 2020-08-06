@@ -72,7 +72,7 @@ func TestSendEmailCommand_shouldSendPlainTextEmail(t *testing.T) {
 		t.Errorf("wrong email body\nwant: %s\ngot : %s\n", input.Body, r.body)
 	}
 	if r.isHtmlEmail != input.IsHtmlEmail {
-		t.Errorf("wrong email format\nwant: %s\ngot : %s\n", input.IsHtmlEmail, r.isHtmlEmail)
+		t.Errorf("wrong email format\nwant: %t\ngot : %t\n", input.IsHtmlEmail, r.isHtmlEmail)
 	}
 }
 

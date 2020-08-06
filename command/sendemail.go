@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/HotelsDotCom/flyte-client/flyte"
-	"github.com/HotelsDotCom/flyte-email/email"
 	"github.com/HotelsDotCom/go-logger"
+	"github/ExpediaGroup/flyte-email/email"
 )
 
 var (

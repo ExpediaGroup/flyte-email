@@ -19,9 +19,9 @@ package main
 import (
 	"github.com/HotelsDotCom/flyte-client/client"
 	"github.com/HotelsDotCom/flyte-client/flyte"
-	"github.com/HotelsDotCom/flyte-email/command"
-	"github.com/HotelsDotCom/flyte-email/email"
 	"github.com/HotelsDotCom/go-logger"
+	"github/ExpediaGroup/flyte-email/command"
+	"github/ExpediaGroup/flyte-email/email"
 	"net/url"
 	"time"
 )
@@ -43,7 +43,7 @@ func main() {
 		Commands: []flyte.Command{
 			command.SendEmailCommand(email.NewEmailSender(config.values[smtpServer])),
 		},
-		HelpURL: createURL("https://github.com/HotelsDotCom/flyte-email/blob/master/README.md"),
+		HelpURL: createURL("https://github.com/ExpediaGroup/flyte-email/blob/master/README.md"),
 	}
 	pack := flyte.NewPack(packDef, client.NewClient(createURL(config.values[flyteApiUrl]), 10*time.Second))
 
