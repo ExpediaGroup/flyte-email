@@ -20,8 +20,8 @@ import (
 	"github.com/HotelsDotCom/flyte-client/client"
 	"github.com/HotelsDotCom/flyte-client/flyte"
 	"github.com/HotelsDotCom/go-logger"
-	"github/ExpediaGroup/flyte-email/command"
-	"github/ExpediaGroup/flyte-email/email"
+	"github.com/ExpediaGroup/flyte-email/command"
+	"github.com/ExpediaGroup/flyte-email/email"
 	"net/url"
 	"time"
 )
