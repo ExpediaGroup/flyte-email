@@ -1,4 +1,4 @@
-module github/ExpediaGroup/flyte-email
+module github.com/ExpediaGroup/flyte-email
 
 go 1.14
 
